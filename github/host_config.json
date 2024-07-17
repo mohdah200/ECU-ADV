@@ -1,5 +1,5 @@
 {
-	"token": "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",
+	"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1MjY0MjU1MywianRpIjoiMDI1MGM5MDg4MTUzNDU0NGE1NzdlYmNlYWFhMTBhYmEiLCJ1c2VyX2lkIjo0NTYzN30.WzwrF3fQfFeqearbv0v6hq-3lU5XW16KiZ892KiIwOU","expires_at":"2025-07-16T05:09:13Z",
 	"team_pk": "3449",
-	"evalai_host_url": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc1MjY0MjU1MywianRpIjoiMDI1MGM5MDg4MTUzNDU0NGE1NzdlYmNlYWFhMTBhYmEiLCJ1c2VyX2lkIjo0NTYzN30.WzwrF3fQfFeqearbv0v6hq-3lU5XW16KiZ892KiIwOU"
+	"evalai_host_url": "https://staging.eval.ai"
 }

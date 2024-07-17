@@ -16,28 +16,25 @@ published: True
 leaderboard:
   - id: 1
     schema:
-      {
-        "labels": ["Accuracy", "Precision", "Recall", "F1 Score"],
-        "default_order_by": "F1 Score",
-        "metadata": {
-          "Accuracy": {
-            "sort_ascending": False,
-            "description": "Accuracy of the model."
-          },
-          "Precision": {
-            "sort_ascending": False,
-            "description": "Precision of the model."
-          },
-          "Recall": {
-            "sort_ascending": False,
-            "description": "Recall of the model."
-          },
-          "F1 Score": {
-            "sort_ascending": False,
-            "description": "F1 Score of the model."
-          }
-        }
-      }
+      labels:
+        - "Accuracy"
+        - "Precision"
+        - "Recall"
+        - "F1 Score"
+      default_order_by: "F1 Score"
+      metadata:
+        Accuracy:
+          sort_ascending: False
+          description: "Accuracy of the model."
+        Precision:
+          sort_ascending: False
+          description: "Precision of the model."
+        Recall:
+          sort_ascending: False
+          description: "Recall of the model."
+        F1 Score:
+          sort_ascending: False
+          description: "F1 Score of the model."
 
 challenge_phases:
   - id: 1
@@ -82,6 +79,7 @@ challenge_phases:
     is_restricted_to_select_one_submission: False
     is_partial_submission_evaluation_enabled: False
     allowed_submission_file_types: ".json, .zip, .txt, .tsv, .gz, .csv, .h5, .npy, .npz"
+
   - id: 2
     name: Test Phase
     description: templates/challenge_phase_2_description.html

@@ -3,7 +3,7 @@ short_description: CSV classification challenge with accuracy, precision, recall
 description: templates/description.html
 evaluation_details: templates/evaluation_details.html
 terms_and_conditions: templates/terms_and_conditions.html
-image: images/challenge_logo.jpg
+image: images/challenge_logo.jpg  # Ensure this path is correct
 submission_guidelines: templates/submission_guidelines.html
 evaluation_script: evaluation_script.zip
 remote_evaluation: False
